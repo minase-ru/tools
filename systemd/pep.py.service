@@ -1,0 +1,8 @@
+[Unit]
+Description=OsuBanchoServer
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/sh -c 'cd /root/minase/pep.py && /usr/bin/python3 pep.py'
+Restart=always
