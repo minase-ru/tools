@@ -4,5 +4,5 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/bin/sh -c 'cd /root/minase/LETS && /usr/bin/python3 lets.py'
+ExecStart=/bin/sh -c 'cd /root/minase/oss && /usr/bin/python3 lets.py'
 Restart=always
