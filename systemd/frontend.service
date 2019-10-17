@@ -4,5 +4,5 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/bin/sh -c 'cd /root/go/src/github.com/osu-minase/frontend && frontend-server'
+ExecStart=/bin/sh -c 'cd /root/go/src/github.com/osu-minase/frontend && ./frontend-server'
 Restart=always
